@@ -9,7 +9,7 @@ attr_accessor :parse
   
   def initialize(parse)
     array = []
-    array << parse
+    array << parse.split(", ")
   end
   
 end
