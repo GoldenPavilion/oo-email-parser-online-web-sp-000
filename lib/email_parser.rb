@@ -9,6 +9,7 @@ attr_accessor :parse
   
   def initialize(parse)
     array = []
+    array << parse
   end
   
 end
