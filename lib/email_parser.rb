@@ -11,4 +11,7 @@ attr_accessor :parse
     @parse = parse
   end
   
+  def parse
+  end
+  
 end
